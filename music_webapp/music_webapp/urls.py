@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from gaad_record_label import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.index, name="home-page"),
 ]
