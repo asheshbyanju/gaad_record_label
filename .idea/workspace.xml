@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c971a67f-698e-41ba-87d5-95de1cb246ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_webapp/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_webapp/gaad_record_label/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/gaad_record_label/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_webapp/gaad_record_label/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/gaad_record_label/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_webapp/gaad_record_label/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/gaad_record_label/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/music_webapp/gaad_record_label/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/gaad_record_label/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_webapp/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_webapp/music_webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/music_webapp/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
