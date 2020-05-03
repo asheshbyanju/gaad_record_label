@@ -19,7 +19,7 @@
                     </h2>
                     <br>
                     <div class="">
-                        <a class="btn btn-success btn-lg btn-round" href="#">Login for free</a></div>
+                        <a class="btn btn-success btn-lg btn-round" href='accounts/signup'>Sign up for free</a></div>
                   </div>
                </div>
             </div>
@@ -36,7 +36,15 @@
               {% for artist in artists_list %}
                 <div class="col-md-4">
                   <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Artist" src="{{artist.image.url}}" data-holder-rendered="true">
+                      {% if user.is_authenticated %}
+                          <a href="/">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Artist" src="{{artist.image.url}}" data-holder-rendered="true">
+                          </a>
+                      {% else %}
+                        <a href="accounts/login">
+                            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Artist" src="{{artist.image.url}}" data-holder-rendered="true">
+                          </a>
+                      {% endif %}
                     <div class="card-body">
                       <h3 class="card-text">{{artist.name}}</h3>
                       <p class="card-text">Genre: {{artist.genre}}</p>

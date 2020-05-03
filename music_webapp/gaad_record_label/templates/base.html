@@ -29,10 +29,15 @@
                 <a class="nav-link " href="#">About us</a>
               </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <button class="btn btn-outline-success mr-sm-2" type="submit">Login </button>
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign up</button>
-            </form>
+            <div class="form-inline my-2 my-lg-0">
+                {% if user.is_authenticated %}
+                    <P class="text-success my-2 my-sm-0 mr-sm-2" >Welcome {{user.first_name}} </P>
+                    <a class="text-success my-2 my-sm-0" href="accounts/logout">Log out</a>
+                {% else %}
+                    <a class="btn btn-outline-success mr-sm-2" href="accounts/login">Login </a>
+                    <a class="btn btn-outline-success my-2 my-sm-0" href="accounts/signup">Sign up</a>
+                {% endif %}
+
           </div>
       </nav>
      </div>
