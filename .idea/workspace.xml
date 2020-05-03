@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c971a67f-698e-41ba-87d5-95de1cb246ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_webapp/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/music_webapp/gaad_record_label/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/gaad_record_label/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/music_webapp/gaad_record_label/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/gaad_record_label/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_webapp/gaad_record_label/static/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_webapp/gaad_record_label/static/images/gaad_carousel.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_webapp/gaad_record_label/static/images/guitar-music-colors.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/music_webapp/gaad_record_label/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/gaad_record_label/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_webapp/gaad_record_label/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/gaad_record_label/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_webapp/music_webapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/music_webapp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music_webapp/music_webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/music_webapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music_webapp/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/static/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +65,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="332" y="36" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1588469007485" />
+    <state x="397" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1588474762337">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="397" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1588474762337" />
     <state x="378" y="69" width="683" height="729" key="find.popup" timestamp="1588442968223">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
