@@ -15,3 +15,8 @@ def artist_details(request, artist_id):
     albums = Album.objects.all().filter(artist_id=artist.pk)
 
     return render(request, 'artist_details.html', {'albums': albums, 'artist': artist})
+
+def artist_list(request):
+    artists = Artist.objects.all()
+    return render(request, 'artist_list.html', {'artists': artists})
+

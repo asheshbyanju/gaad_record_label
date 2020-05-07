@@ -13,7 +13,12 @@
     <div id="carouselExampleSlidesOnly" class="carousel" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100 h-50" src="{% static "images/guitar-music-colors.jpg" %}" alt="First slide">
+            <img class="d-block w-100" src="{{artist.image.url}}" alt="First slide" style="
+            height: 500px;
+            width: 100%;
+            object-fit: cover;
+            overflow: hidden;">
+<!--          <img class="d-block w-100 h-50" src="{% static "images/guitar-music-colors.jpg" %}" alt="First slide">-->
           <div class="header-text hidden-xs">
               <div class="col-md-12 text-center">
                 <h1>
@@ -33,12 +38,12 @@
           {% for album in albums %}
             <div class="col-xl-3 col-md-6 mb-4">
               <div class="card border-0 shadow">
-                    <a href="/">
-                    <img src="{{artist.image.url}}" class="card-img-top" alt="Thumbnail">
+                    <a href="#">
+                    <img src="{{album.album_art.url}}" class="card-img-top" alt="Thumbnail">
                     </a>
                 <div class="card-body text-center">
                   <h5 class="card-title mb-0">{{album.name}}</h5>
-                  <div class="card-text text-black-50">Release date: {{album.release_date}}</div>
+                  <div class="card-text text-black-50">Release year: {{album.release_date.year}}</div>
                 </div>
               </div>
             </div>
@@ -50,20 +55,26 @@
 
 <div class="container-fluid mb-5 bg-light">
     <div class="row">
-        <div class="col pl-5 pt-5">
+        <div class="col-6 pl-5 pt-5">
             <h3 class="mb-4">About {{artist.name}}</h3>
         </div>
+        <div class="col-4 pl-5 pt-5">
+            <a href="mailto:{{artist.email}}" class="fa fa-envelope fa-2x pr-2"></a>
+            <a href="{{artist.facebook}}" class="fa fa-facebook fa-2x pr-2" aria-hidden="true" ></a>
+            <a href="{{artist.instagram}}" class="fa fa-instagram  fa-2x pr-2"></a>
+            <a href="{{artist.soundcloud}}" class="fa fa-soundcloud fa-2x pr-2"></a>
+            <a href="{{artist.twitter}}" class="fa fa-twitter fa-2x pr-2"></a>
+            <a href="{{artist.youtube}}" class="fa fa-youtube-play fa-2x pr-2"></a>
+        </div>
+    </div>
+    <div class="row">
+
     </div>
     <div class="row">
      <div class="col-8 p-5">
 
 
-        <p class="mb-4">Though he would later struggle with the nature of his fame as well as market expectations,
-            50 Cent endured substantial obstacles throughout his young yet remarkably dramatic life before becoming the most discussed figure in rap,
-            if not pop music in general, circa 2003. Following an unsuccessful late-'90s run at mainstream success
-            (foiled by an attempt on his life in 2000) and a successful run on the New York mixtape circuit (driven by his early-2000s bout with Ja Rule),
-            Eminem signed 50 Cent to a seven-figure contract in 2002 and helmed his quick rise toward crossover success in 2003.
-            </p>
+        <p class="mb-4">{{artist.about}}</p>
     </div>
     <div class="col-4 p-5">
         <h6>Nationality</h6>
