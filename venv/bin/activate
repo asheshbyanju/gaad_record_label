@@ -74,3 +74,5 @@ fi
 if [ -n "${BASH:-}" -o -n "${ZSH_VERSION:-}" ] ; then
     hash -r
 fi
+
+export DATABASE_URL="postgres://vonssfpnjdpjul:c4ce55b0d1abe0f306fb103c33142dbc644796e29149f392f20003d3364f405d@ec2-35-171-31-33.compute-1.amazonaws.com:5432/daa5a22dfv42eb"
