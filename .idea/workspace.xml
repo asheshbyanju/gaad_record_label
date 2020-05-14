@@ -3,10 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="c971a67f-698e-41ba-87d5-95de1cb246ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaad_record_label/music_webapp/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaad_record_label/music_webapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaad_record_label/music_webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/migrations/0002_auto_20200503_0022.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/migrations/0002_auto_20200503_0022.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/migrations/0003_auto_20200503_0049.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/migrations/0003_auto_20200503_0049.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/migrations/0004_auto_20200503_0333.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/migrations/0004_auto_20200503_0333.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/migrations/0005_album.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/migrations/0005_album.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/migrations/0006_album_album_art.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/migrations/0006_album_album_art.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/templates/artist_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/templates/artist_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/templates/artist_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/templates/artist_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/templates/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/templates/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/music_webapp/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/music_webapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/music_webapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/music_webapp/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/music_webapp/gaad_record_label" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,6 +90,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="332" y="36" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1588469007485" />
+    <state x="221" y="73" key="SettingsEditor" timestamp="1589468910897">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="221" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1589468910897" />
     <state x="397" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1589412242714">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -76,16 +102,16 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="378" y="69" width="683" height="729" key="find.popup/0.23.1440.822@0.23.1440.822" timestamp="1588442968223" />
-    <state x="385" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1588543106358">
+    <state x="385" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1589468908330">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="385" y="169" width="670" height="676" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1588543106358" />
+    <state x="385" y="169" width="670" height="676" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1589468908330" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/gaad_record_label/music_webapp/urls.py</url>
+          <url>file://$PROJECT_DIR$/gaad_record_label/gaad_record_label/urls.py</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

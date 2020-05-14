@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('gaad_record_label', '0003_auto_20200503_0049'),
+        ('music_webapp', '0003_auto_20200503_0049'),
     ]
 
     operations = [

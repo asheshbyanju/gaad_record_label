@@ -1,3 +1,3 @@
-web: gunicorn gaad_record_label.music_webapp.wsgi --log-file -
+web: gunicorn gaad_record_label.gaad_record_label.wsgi --log-file -
 
 

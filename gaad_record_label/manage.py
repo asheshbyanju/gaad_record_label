@@ -5,7 +5,7 @@ import sys
 
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'music_webapp.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gaad_record_label.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
