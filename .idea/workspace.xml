@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c971a67f-698e-41ba-87d5-95de1cb246ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/gaad_record_label/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gaad_record_label/music_webapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaad_record_label/music_webapp/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,5 +78,16 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="385" y="169" width="670" height="676" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1588543106358" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gaad_record_label/music_webapp/urls.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

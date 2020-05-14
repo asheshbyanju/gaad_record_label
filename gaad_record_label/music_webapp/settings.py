@@ -25,7 +25,7 @@ SECRET_KEY = 'ji6ivbn8kp(sh%elvp*6d1r_%@q&__we6$2+$-(ls==_c*2k9c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gaadrecordlabel.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['gaadrecordlabel.herokuapp.com', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition
