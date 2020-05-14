@@ -1,5 +1,5 @@
 """
-WSGI config for music_webapp project.
+WSGI config for gaad_record_label project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'music_webapp.music_webapp.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gaad_record_label.music_webapp.settings')
 
 application = get_wsgi_application()
