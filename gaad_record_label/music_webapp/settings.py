@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'gaad_record_label.urls'
+ROOT_URLCONF = 'gaad_record_label.music_webapp.urls'
 
 TEMPLATES = [
     {

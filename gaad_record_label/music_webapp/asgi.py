@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gaad_record_label.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'music_webapp.settings')
 
 application = get_asgi_application()

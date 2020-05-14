@@ -20,8 +20,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('', include('gaad_record_label.urls')),
-    path('accounts/', include('accounts.urls'))
+    path('', include('gaad_record_label.gaad_record_label.urls')),
+    path('accounts/', include('gaad_record_label.accounts.urls'))
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
