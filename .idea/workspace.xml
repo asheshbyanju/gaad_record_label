@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c971a67f-698e-41ba-87d5-95de1cb246ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/music_webapp/music_webapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_webapp/music_webapp/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
