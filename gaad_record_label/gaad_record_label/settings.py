@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'gaad_record_label.apps.GaadRecordLabelConfig',
+    'music_webapp.apps.GaadRecordLabelConfig',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +79,7 @@ import dj_database_url
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'gaad_record_label',
+#         'NAME': 'music_webapp',
 #         'USER': 'postgres',
 #         'PASSWORD': 'admin',
 #         'HOST': 'localhost',
@@ -94,7 +94,7 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
-            'NAME': 'gaad_record_label',
+            'NAME': 'music_webapp',
             'USER': 'postgres',
             'PASSWORD': 'admin',
             'HOST': 'localhost',

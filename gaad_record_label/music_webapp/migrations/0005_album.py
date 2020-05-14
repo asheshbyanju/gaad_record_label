@@ -7,7 +7,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('gaad_record_label', '0004_auto_20200503_0333'),
+        ('music_webapp', '0004_auto_20200503_0333'),
     ]
 
     operations = [
@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=100)),
                 ('release_date', models.DateField(blank=True)),
-                ('artist', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='gaad_record_label.Artist')),
+                ('artist', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='music_webapp.Artist')),
             ],
         ),
     ]
