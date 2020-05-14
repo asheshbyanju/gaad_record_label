@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'gaad_record_label',
+    # 'gaad_record_label',
+    'gaad_record_label.apps.GaadRecordLabelConfig',
 ]
 
 MIDDLEWARE = [
@@ -74,6 +75,8 @@ WSGI_APPLICATION = 'music_webapp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+import dj_database_url
+
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
@@ -84,7 +87,7 @@ WSGI_APPLICATION = 'music_webapp.wsgi.application'
 #         'PORT': '5433',
 #     }
 # }
-import dj_database_url
+#
 
 if os.environ.get('ENV') == "PROD":
     DATABASES = {'default': dj_database_url.config()}
@@ -145,9 +148,11 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 
+# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-# Configure Django App for Heroku.
-import django_heroku
-django_heroku.settings(locals())
+# # Configure Django App for Heroku.
+# import django_heroku
+# django_heroku.settings(locals())
