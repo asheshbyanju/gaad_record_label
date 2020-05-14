@@ -25,7 +25,7 @@ SECRET_KEY = 'ji6ivbn8kp(sh%elvp*6d1r_%@q&__we6$2+$-(ls==_c*2k9c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gaadrecordlabel.herokuapp.com']
+ALLOWED_HOSTS = ['gaadrecordlabel.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -154,4 +154,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # # Configure Django App for Heroku.
 import django_heroku
-django_heroku.settings(locals())
+if os.environ.get('ENV') == "PROD":
+    django_heroku.settings(locals())
