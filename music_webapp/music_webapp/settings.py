@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # 'gaad_record_label',
     'gaad_record_label.apps.GaadRecordLabelConfig',
 ]
 
